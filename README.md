@@ -1,6 +1,6 @@
 ## 采集linux指标, 可用于监控
 
-包括:
+覆盖了下几类:
 * cpu
 * 内存
 * io状态
@@ -25,3 +25,5 @@ func main() {
     println("free:", mem.MemFreeFunc(""), "kb")
 }
 ```
+
+更多监控项请参考源码注释.
